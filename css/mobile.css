@@ -1,0 +1,42 @@
+@media (max-width: 560px) {
+  .nav,
+  .phone {
+    display: none;
+  }
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.header-row {
+  justify-content: space-between;
+  gap: 10px;
+  padding: 15px 0;
+}
+
+.book-now {
+  font-size: 14px;
+  padding: 10px 25px;
+  width: max-content;
+}
+
+.logo {
+  font-size: 12px;
+}
+.hero-title {
+  font-size: 36px;
+}
+
+.hero-description {
+  font-size: 16px;
+  line-height: 1.4;
+}
+.hero-actions {
+  flex-direction: column;
+}
+.hero-customers {
+  flex-direction: column;
+  gap: 15px;
+}
+
