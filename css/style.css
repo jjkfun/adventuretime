@@ -177,7 +177,7 @@ nav {
   background: #222224;
 }
 
-.choose-columnorder {
+.choose-content {
   border-left: 2px solid #3d3d40;
   padding-left: 35px;
   text-align: center;
@@ -186,7 +186,7 @@ nav {
   align-items: center;
 }
 
-.choose-columnorder h2 {
+.choose-content h2 {
   font-family: "Ubuntu", sans-serif;
   color: #fff;
   font-size: 46px;
@@ -196,7 +196,7 @@ nav {
   padding: 0 104px 20px 0;
 }
 
-.choose-columnorder p {
+.choose-content p {
   max-width: 370px;
   text-align: start;
   line-height: 27px;
@@ -853,9 +853,6 @@ nav {
   color: #fff;
 }
 
-.params {
-}
-
 .footer-column li {
   font-family: Ubuntu, sans-serif;
   font-size: 18px;
@@ -872,7 +869,6 @@ nav {
   padding-bottom: 25px;
   padding-top: 29px;
 }
-
 
 .foot-row {
   display: flex;

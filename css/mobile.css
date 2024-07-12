@@ -3,40 +3,111 @@
   .phone {
     display: none;
   }
-}
 
-.container {
-  padding: 0 20px;
-}
+  .container {
+    padding: 0 20px;
+  }
 
-.header-row {
-  justify-content: space-between;
-  gap: 10px;
-  padding: 15px 0;
-}
+  .header-row {
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px 0;
+  }
 
-.book-now {
-  font-size: 14px;
-  padding: 10px 25px;
-  width: max-content;
-}
+  .book-now {
+    font-size: 14px;
+    padding: 10px 25px;
+    width: max-content;
+  }
 
-.logo {
-  font-size: 12px;
-}
-.hero-title {
-  font-size: 36px;
-}
+  .logo {
+    font-size: 12px;
+  }
+  .hero-title {
+    font-size: 36px;
+  }
 
-.hero-description {
-  font-size: 16px;
-  line-height: 1.4;
-}
-.hero-actions {
-  flex-direction: column;
-}
-.hero-customers {
-  flex-direction: column;
-  gap: 15px;
-}
+  .hero-description {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .hero-actions {
+    flex-direction: column;
+  }
+  .hero-customers {
+    flex-direction: column;
+    gap: 15px;
+  }
 
+  .choose {
+    padding: 50px 0;
+  }
+
+  .choose-row {
+    flex-direction: column;
+    color: #fff;
+    max-width: none;
+  }
+  .choose-content {
+    order: -1;
+    padding-left: 0;
+    text-align: center;
+    border: none;
+  }
+  .choose-column h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .choose-column p {
+    font-size: 14px;
+    max-width: none;
+  }
+
+  .choose-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .choose-content p {
+    font-size: 14px;
+    max-width: none;
+  }
+
+  .window-coating {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .window-coating .window-coating-column {
+    padding: 0;
+    border: none;
+  }
+
+  .window-content-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .window-content-desc {
+    max-width: none;
+    font-size: 14px;
+  }
+
+  .window-tint-row {
+    flex-direction: column;
+  }
+
+  .window-tint-content {
+    text-align: center;
+  }
+
+  .window-tint-image img {
+    max-width: 100%;
+    margin-left: 10px;
+  }
+  .window-tint {
+    padding: 40px 0;
+  }
+}
