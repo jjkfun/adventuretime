@@ -433,12 +433,39 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script></script>
     <script>
       const swiper = new Swiper(".swiper", {
         direction: "horizontal",
         slidesPerView: 5,
         loop: true,
         spaceBetween: 25,
+
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window width is >= 480px
+          450: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          1023: {
+            slidesPerView: 5,
+            spaceBetween: 25,
+          },
+        },
 
         navigation: {
           nextEl: ".swiper-button-next",
